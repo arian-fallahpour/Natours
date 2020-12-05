@@ -90,6 +90,7 @@ app.all("*", (req, res, next) => {
 
 app.use(globalErrorHandler);
 
+// Start expres stuff
 // 4) START SERVER
 module.exports = app;
 
