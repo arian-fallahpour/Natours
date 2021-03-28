@@ -64,6 +64,7 @@ const sendErrorProd = (err, req, res) => {
       message: "Something went very wrong!",
     });
   }
+
   // B) RENDERED WEBSITE
   //Operational, trusted errpr: send message to client
   if (err.isOperational) {

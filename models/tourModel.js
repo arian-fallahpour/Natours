@@ -126,6 +126,7 @@ tourSchema.virtual("durationWeeks").get(function () {
 });
 
 // Virtual populate
+// WARNING: This alone does not work, you must add .populate("reviews") to the find method
 tourSchema.virtual("reviews", {
   ref: "Review", // collection
   foreignField: "tour", // field in collection
