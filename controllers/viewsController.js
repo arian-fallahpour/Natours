@@ -10,15 +10,16 @@ exports.getOverview = catchAsync(async (req, res, next) => {
   const tours = await Tour.find();
 
   // 2) Build template
-  console.log(req.connection.remoteAddress);
+  // console.log(req.connection.remoteAddress);
 
   // 3) Render that template using tour data from 1
 
   res.status(200).render("overview", {
     title: "All Tours",
     tours,
-    ip: req.connection.remoteAddress,
-    ip2: req.headers["x-forwarded-for"],
+    // dangerous tools
+    // ip: req.connection.remoteAddress,
+    // ip2: req.headers["x-forwarded-for"],
   });
 });
 
