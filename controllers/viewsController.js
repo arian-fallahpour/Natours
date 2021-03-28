@@ -18,6 +18,7 @@ exports.getOverview = catchAsync(async (req, res, next) => {
     title: "All Tours",
     tours,
     ip: req.connection.remoteAddress,
+    ip2: req.headers["x-forwarded-for"],
   });
 });
 
