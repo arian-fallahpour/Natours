@@ -15,8 +15,10 @@ exports.getOverview = catchAsync(async (req, res, next) => {
   // 3) Render that template using tour data from 1
 
   res.status(200).render("overview", {
+    // This object is called the globals
     title: "All Tours",
     tours,
+    globalsTest: "LOLOLO Arian may 27 Aylin serge",
     // dangerous tools
     // ip: req.connection.remoteAddress,
     // ip2: req.headers["x-forwarded-for"],
