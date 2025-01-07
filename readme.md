@@ -256,7 +256,7 @@ This project is open-sourced under the [MIT license](https://opensource.org/lice
 
 ## Deployed Version 🚀
 
-Live demo (Feel free to visit) 👉🏻 : https://lgope-natours.onrender.com/
+Live demo (Feel free to visit) 👉🏻 : https://natours.dev/
 
 ## Acknowledgement 🙏🏻
 
