@@ -118,17 +118,15 @@ Before using the API, you need to set the variables in Postman depending on your
 - {{password}} with your user password as value.
 ```
 
-Check [Natours API Documentation](https://documenter.getpostman.com/view/8893042/SW7c37V6) for more info.
-
 <b> API Features: </b>
 
-Tours List 👉🏻 https://lgope-natours.onrender.com/api/v1/tours
+Tours List 👉🏻 https://natours.dev/api/v1/tours
 
-Tours State 👉🏻 https://lgope-natours.onrender.com/api/v1/tours/tour-stats
+Tours State 👉🏻 https://natours.dev/api/v1/tours/tour-stats
 
-Get Top 5 Cheap Tours 👉🏻 https://lgope-natours.onrender.com/api/v1/tours/top-5-cheap
+Get Top 5 Cheap Tours 👉🏻 https://natours.dev/api/v1/tours/top-5-cheap
 
-Get Tours Within Radius 👉🏻 https://lgope-natours.onrender.com/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
+Get Tours Within Radius 👉🏻 https://natours.dev/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
 
 ## Deployment 🌍
 
@@ -209,10 +207,6 @@ If you wish to play around with the code base in your local environment, do the 
 * Start the server.
 * Your app should be running just fine.
 ```
-
-#### Demo-`.env` file :
-
-![demo-env-file](https://github.com/lgope/Natours/assets/58518192/cf5b833f-2a48-48a1-aeb3-5ffea8967e33)
 
 ## Installation 🛠️
 
